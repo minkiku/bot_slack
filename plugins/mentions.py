@@ -23,10 +23,11 @@ def listen_func(message):
     
 @respond_to("かっこいい")
 def cool_func(message):
-    message.reply("何言ってだおまえ")
+    message.reply("何言ってだおまえ(´・ω・`)")
     message.react("+1")
     
-
+"""
 @respond_to(r"^ping\s+\d+\.\d+\.\d+\.\d+\s*$")
 def ping_func(message):
     message.reply("ping実行すんなし")
+"""
