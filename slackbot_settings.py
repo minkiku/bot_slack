@@ -9,7 +9,7 @@ Created on Mon May 15 01:25:46 2017
 API_TOKEN = " xxxxxx APIキーを入力 xxxxxx "
 
 #よくわかんないメッセージへの応答msg
-DEFAULT_REPLY = "何言ってだ"
+DEFAULT_REPLY = "何言ってだ(´・ω・`)"
 
 #プラグイン格納場所
 PLUGINS = ["plugins"]
