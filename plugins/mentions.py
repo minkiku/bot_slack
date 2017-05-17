@@ -14,8 +14,8 @@ from slackbot.bot import default_reply
 
 @respond_to("こんにちは〜")
 def mention_func(message):
-    message.reply("おまえ誰だよ")
-
+    message.reply("いえ〜")
+        
 @listen_to("おなかすいた")
 def listen_func(message):
     message.send("うるせー！！")
@@ -23,11 +23,6 @@ def listen_func(message):
     
 @respond_to("かっこいい")
 def cool_func(message):
-    message.reply("何言ってだおまえ(´・ω・`)")
+    message.reply("何言ってだおまえ")
     message.react("+1")
-    
-"""
-@respond_to(r"^ping\s+\d+\.\d+\.\d+\.\d+\s*$")
-def ping_func(message):
-    message.reply("ping実行すんなし")
-"""
+

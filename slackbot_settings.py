@@ -6,10 +6,10 @@ Created on Mon May 15 01:25:46 2017
 """
 
 #botアカウントのトークン
-API_TOKEN = " xxxxxx APIキーを入力 xxxxxx "
+API_TOKEN = "xoxb-183361024692-3M2EtpeHFjDTkItA89lOviFv"
 
 #よくわかんないメッセージへの応答msg
-DEFAULT_REPLY = "何言ってだ(´・ω・`)"
+DEFAULT_REPLY = "何言ってだ"
 
 #プラグイン格納場所
 PLUGINS = ["plugins"]
