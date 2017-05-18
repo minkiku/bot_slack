@@ -6,7 +6,7 @@ Created on Mon May 15 01:25:46 2017
 """
 
 #botアカウントのトークン
-API_TOKEN = " xxxxx APIキーを入力 xxxxx "
+API_TOKEN = " xxxxxx APIキーを入力 xxxxxx "
 
 #よくわかんないメッセージへの応答msg
 DEFAULT_REPLY = "何言ってだ"
